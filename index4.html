@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercer pagina web responsive</title>
+</head>
+<body>
+
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+        
+        header, nav, main, footer{
+            padding: 15px;
+        }
+        
+        header{
+            background-color: cadetblue;
+            color: aliceblue;
+        }
+
+        nav{
+            background-color: aliceblue;            
+        }
+        footer{
+            background-color: black;
+            color: aqua;
+        }
+
+        .wrap{
+            max-width: 900px;
+            margin: auto;
+         }
+
+         nav a{
+            display: inline-block;
+            margin: 5px, 10px, 5px 0;
+            padding: 8px, 10px;
+            background-color: antiquewhite;
+            border: 1px solid white;
+            text-decoration: none;
+            color: black;
+         }
+
+         .caja{
+            background-color: aliceblue;
+            border: 1px solid white;
+            padding: 15px;
+            margin: 15px, 0;
+         }
+
+         main div{
+            display: flex;
+         }
+         img{
+            width: 300px;
+            height: 200px;
+
+         }
+
+
+
+
+    </style>
+        <header>
+
+            <div class="wrap">
+                <h1>Mi web Responsive_Usiel_Martinez</h1>
+                <p>Esto funciona bien en movil sin casi usar media queries. </p>
+            </div>
+        </header>
+            <nav>
+                <div class="wrap">
+                    <a href="">Inicio</a>
+                    <a href="">Producto</a>
+                    <a href="">Galeria</a>
+                    <a href="">Contactos</a>
+
+                </div>
+            </nav>
+                    <main>
+                        <div class="wrap">
+                            <section class="caja">
+                                <h2>Section A</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae modi quod qui obcaecati, voluptas vitae voluptatum nam sit necessitatibus saepe mollitia molestiae dolor in velit? Possimus iste hic similique aliquid?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae obcaecati eius repudiandae optio amet vel quam! Deserunt distinctio rem in explicabo, non exercitationem quis iure sit harum sunt aliquam!</p>
+                                    <img src="https://www.rollingstone.com/wp-content/uploads/2023/10/Bad-Bunny-Nadie-Sabe-Lo-Que-Va-a-Pasar-Manana.jpg?w=1581&h=1054&crop=1" alt="">
+                            </section>
+                                <section class="wrap">
+                                    <h2>Section B</h2>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe laborum in, itaque labore sed quas repudiandae! Facilis maxime voluptates rem recusandae minima, esse incidunt, doloribus iure quaerat neque voluptas distinctio.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem facilis laboriosam, placeat, facere consectetur tempore expedita beatae similique maiores ut nesciunt ipsa vero pariatur in iusto itaque debitis maxime!</p>
+                                    <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2021/02/comp-ac-bad-bunny-seo.jpg" alt="">
+                                </section>
+                         </div>
+
+                        </main>
+
+                        <footer>
+                            <div class="wrap">
+                                <p>0 2026-Ejemplo basico responsive</p>
+
+                            </div>
+                        </footer>
+
+
+
+</body>
+</html>

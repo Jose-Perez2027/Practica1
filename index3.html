@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda Paagina responsive</title>
+</head>
+<body>
+   <style>
+    body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        header, nav, main, footer {
+            padding: 15px;
+        }
+        header{
+            background-color: mediumblue;
+            color: aliceblue;
+        }
+        nav{
+            background-color: aliceblue;
+        }
+        footer{
+            background-color: cornflowerblue;
+            color: antiquewhite;
+            text-align: center;
+        }
+        
+        .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 15px;
+        }
+
+        .caja{
+            background-color: antiquewhite;
+            padding: 15px;
+            border: 1px solid white;
+        }
+        
+        @media (max-width:700px) {
+            .grid{
+                grid-template-columns: 1fr;}
+                h1{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 50px;
+                }
+        }
+
+            nav a{
+                margin-right: 10px;
+                text-decoration: none;
+                color: black;
+            }
+
+
+   </style> 
+        <header>
+
+            <h1>Mi web responsive_Usiel_Martinez</h1>
+            <p>Ejemplo simple usando grid</p>
+            </header>
+           
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Blog</a>
+                <a href="#">Acerca</a>
+            </nav>
+
+                <main>
+                    <div class="grid">
+                        <article class="caja">
+                            <h2>Articulo 1 </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores rerum eaque aperiam dolorum. Saepe sapiente asperiores consequatur necessitatibus facere nesciunt eos. Vel quia consequuntur cupiditate deserunt quae incidunt expedita dicta.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis aspernatur quo, deleniti hic vel aliquam dignissimos eum blanditiis odit laborum soluta perferendis assumenda quaerat numquam quasi possimus. Corrupti, veritatis quo.</p>
+
+                        </article>
+
+                        <article class="caja">
+                            <h2>Articulo 2 </h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio nobis exercitationem distinctio consectetur qui, eos repudiandae aliquam saepe sapiente autem totam, beatae dolor quo minima cumque nihil perferendis veniam nam?</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda laborum pariatur facilis non modi rerum deserunt repellat dolores molestiae. Minima quam labore, assumenda maxime officia totam voluptatem impedit dolores. Repellat.</p>
+                        </article>
+
+                    </div>
+
+
+                </main>
+                    <footer>
+                        Derechos reservados - Usiel Martinez
+                    </footer>
+        
+
+</body>
+</html>

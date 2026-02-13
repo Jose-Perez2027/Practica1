@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Mi Hobbie Favorito</title>
+
+    <style>
+        * {
+            box-sizing: border-box; 
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB;
+            color: #046ca0;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #5fb3d4;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 40px;
+            text-align: center;
+            max-width: 1100px;
+            margin: auto; 
+        }
+
+        img {
+            width: 100%;      
+            max-width: 900px; 
+            border-radius: 10px;
+            margin-top: 25px;
+            height: auto;    
+        }
+
+        footer {
+            background-color: #5fb3d4;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+
+        @media (max-width: 900px) {
+            section {
+                padding: 30px;
+            }
+        }
+
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Hobbie Favorito: Fútbol</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#imagen">Imagen</a></li>
+            <li><a href="#sobre-mi">Porque el futbol es mi fav hobbie</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>INICIO</h2>
+        <p>
+          El fútbol es uno de mis hobbies favoritos porque combina diversión, esfuerzo y trabajo en equipo. 
+          Me gusta jugarlo porque me ayuda a despejar la mente, mantenerme activo y compartir buenos momentos 
+          con mis amigos. Cada partido es una oportunidad para aprender algo nuevo, ya sea mejorar mis habilidades, 
+          comunicarme mejor con mis compañeros o entender la importancia de la disciplina. Además, el fútbol enseña 
+          valores como el respeto, la perseverancia y el compañerismo. Para mí, este deporte no es solo un pasatiempo, 
+          sino una pasión que forma parte de mi vida y de lo que soy como persona.
+        </p>
+        <img src="https://www.infobae.com/resizer/v2/5IELOHVPAJHQLIFHIQ6BMWUKR4.jpg?auth=4745ed3cfa1296cddc2c26a38fad0776a7432cfc54de26adf25a522829490cce&smart=true&width=992&height=558&quality=85" alt="Fútbol">
+    </section>
+
+    <section id="imagen">
+        <h2>IMAGEN</h2>
+        <img src="https://imagenes.elpais.com/resizer/v2/WCGACO4PPFGKHF3HIC4CXVKF5U.jpg?auth=09ba79ca2c6ae5dce108c1c59cea3ceb6f552a1c58aa175429f98640b64ac82b&width=1200" alt="Imagen de fútbol">
+        <p>Esta imagen representa mi pasión por el fútbol.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>¿POR QUÉ EL FÚTBOL ES MI HOBBIE FAVORITO?</h2>
+        <p>
+          El fútbol es mi hobbie favorito porque me permite disfrutar de una actividad que me apasiona y al mismo 
+          tiempo me ayuda a despejar la mente. Cada vez que juego o veo un partido siento emoción y motivación, 
+          ya que es un deporte que combina esfuerzo físico, estrategia y trabajo en equipo. Gracias al fútbol he 
+          aprendido a convivir mejor con otras personas, a respetar reglas y a valorar el apoyo de mis compañeros. 
+          Además, practicar fútbol me ayuda a mantenerme activo, a mejorar mi disciplina y a desarrollar confianza 
+          en mí mismo. Para mí, el fútbol no es solo un juego, sino una parte importante de mi vida que me acompaña 
+          día a día y me impulsa a dar siempre lo mejor.
+        </p>
+    </section>
+
+    <footer>
+        <p>Derechos Reservados - Usiel Isai Chicas Martinez</p>
+    </footer>
+
+</body>
+</html>
